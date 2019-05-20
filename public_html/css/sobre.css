@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+#main .texto {
+    text-align: justify;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#main #descricao {
+    width: 300px;
+    height: 200px;
+    margin-top: 2%;
+    margin-left: 40%;
+}
+
+#main #fazemos {
+    width: 300px;
+    height: 200px;
+    margin-top: 2%;
+    margin-left: 40%;
+}
+
+#main #idealizadores {
+    width: auto;
+    height: 400px;
+    position: fixed;
+    margin-left: 25%;
+}
+#main #idealizadores h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-left: 35%;
+}
+#main #idealizadores .icon{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+#main #idealizadores .pIcon {
+    display: none;
+    font-size: 24px;
+    text-align: center;
+    transition: 2s;
+}
+
+#main #idealizadores .side2side{
+    margin-right: 0px;
+    display: inline-block;
+    transition-delay: 5s;
+}
+
+#main #idealizadores .side2side:hover .pIcon{
+    display: flex;
+}
